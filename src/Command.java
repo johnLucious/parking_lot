@@ -14,4 +14,6 @@ public class Command extends Main {
     public String[] getArgs(){
         return this.args;
     }
+
+    public int getArgc() { return this.argc; }
 }
