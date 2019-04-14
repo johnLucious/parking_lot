@@ -1,36 +1,23 @@
-public class Cars{
+public class Cars {
 
-    private String color;
-    private String plateNumber;
+    private String colour;
     private String regNumber;
 
-    public Cars(String color, String plateNumber, String regNumber){
-        this.color = color;
-        this.plateNumber = plateNumber;
+    public Cars() {
+        this.colour = null;
+        this.regNumber = null;
+    }
+
+    public Cars(String colour, String regNumber) {
+        this.colour = colour;
         this.regNumber = regNumber;
     }
 
-    public String getColor() {
-        return color;
-    }
-
-    public void setColor(String color) {
-        this.color = color;
-    }
-
-    public String getPlateNumber() {
-        return plateNumber;
-    }
-
-    public void setPlateNumber(String plateNumber) {
-        this.plateNumber = plateNumber;
+    public String getColour() {
+        return colour;
     }
 
     public String getRegNumber() {
         return regNumber;
-    }
-
-    public void setRegNumber(String regNumber) {
-        this.regNumber = regNumber;
     }
 }
